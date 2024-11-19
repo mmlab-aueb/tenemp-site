@@ -30,51 +30,6 @@ header {
     background-color: #f2f2f2;
     padding: 20px;
 }
-/*
-.item1 { grid-area: logo;}
-.item2 { grid-area: name;}
-.item3 { grid-area: funder;}
-
-.grid-container {
-    display: grid;
-    grid:
-    'logo name funder';
-    grid-gap: 10px;
-    align-items: center;
-    padding: 10px;
-}
-    */
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-}
-.logo {
-    /*width: 25%;*/
-    flex: 25%;
-}
-.logo img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-.name {
-    /*width: 50%;*/
-    flex: 50%;
-    text-align: center;
-    font-size: 30px;
-}
-
-.funder {
-    flex: 25%;
-    
-}
-@media (max-width: 800px) {
-    .logo, .name, .funder {
-      flex: 100%;
-    }
-  }
 
 nav {
     /*width: 936px;*/
@@ -113,38 +68,12 @@ nav a:visited
         color: rgb(191, 216, 224);
   }
 
-main {
-    width: 1000px;
-    margin: 20px auto; 
-}
-.flex-container-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-#welcome h1 {
-    font-size: 28px;
-}
-#welcome p {
-    font-size: 18px;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-}
-#about h1 {
-    font-size: 28px;
-}
-#about p {
-    font-size: 18px;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-}
+
 footer {
     border-top-width: 10px;
     border-top-style: solid;
     border-top-color: rgb(72, 10, 107);
     padding: 20px;
-    /*width: 1000px;*/
     margin: 20px auto; 
     text-align: center;
 }
