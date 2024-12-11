@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TENeMP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="img/TENEMP-logo.jpg">
+    <link rel="icon" type="image/png" href="img/TENEMP-logo-mmlab.JPG">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <nav>
         <ul>
-            <li><a href="https://mm.aueb.gr/">mmlab</a></li>
-            <li><a href="https://www.aueb.gr/">AUEB</a></li>
-            <li><a href="https://spirit-project.eu/">SPIRIT</a></li>
-            <li><a href="#contact">Contact us</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experiments">Experiments</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#metrics">Metrics</a></li>
+            <li><a href="team.html">TENeMP Team</a></li>
         </ul>
     </nav>
     <div class="jumbotron bg-light">
         <div class="row align-items-center">
             <div style="text-align:center;" class="col-md-3">
-                <img src="img/TENEMP-logo.jpg" alt="Project Logo" style="border-radius:50%"  height="150px" weight="150px">
+                <img src="img/TENEMP-logo-mmlab.JPG" alt="Project Logo" style="border-radius:50%"  height="150px" weight="150px">
             </div> 
             <div class="col-md-6" style="font-size: 30px">
                 <strong>Telepresence-Enhanced Network Music Performance (TENeMP)</strong>
@@ -37,8 +38,9 @@
                 <p>This is the home page of the <strong>Telepresence-Enhanced Network Music Performance (TENeMP)</strong> project.</p>
                 <p>The TENeMP project is funded by the <strong>SPIRIT project</strong>.
                 </p>
+                <p>The project is carried out by the <b>Mobile Multimedia Laboratory (MMLab)</b>, one of the oldest research labs in Greece covering computing, communications and media. The MMLab is part of the Department of Informatics at the <b>Athens University of Economics and Business (AUEB)</b> in Greece. research projects are undertaken under the auspices of the AUEB Research Center (AUEB-RC). </p>
 
-        <h2>About</h2>
+        <h2 id="about">About</h2>
         <p>
             The <span class= "textAlt">Telepresence-Enhanced Network Music Performance (TENeMP) </span> project will use the
             <strong>SPIRIT infrastructure </strong>to conduct experiments with <span class= "textAlt">Network Music Performance (NMP)</span> applications over a <span class= "textAlt">5G network</span>, supporting immersive telepresence equipment and services such as holographic communications and avatar-based presence. 
@@ -61,7 +63,7 @@
         </p>
     </div>
     <div class="row p-3">
-        <h2>Experiments</h2>
+        <h2 id="experiments">Experiments</h2>
         <p> The following scenarios will be evaluated:</p>
         <ol>
             <li>
@@ -96,8 +98,9 @@
             </li>
         </ol>
     </div>
+    
     <div class="row p-3">
-        <h2>Objectives</h2>
+        <h2 id="objectives">Objectives</h2>
         <ul>
             <li>
                 OBJ1: Compare the performance of <span class="textAlt">NMP tools</span> over <span class="textAlt">5G</span>. Measure the <span class="textAlt">latency</span> and <span class="textAlt">bandwidth</span> requirements of different NMP tools, that use different protocols over 5G.
@@ -115,28 +118,7 @@
         </ul>
     </div>
     <div class="row p-3">
-        <br>
-        <h2>NMP Use Cases Requirements</h2>
-        <img src="img/use-case-requirements.png" class="img-fluid" style="width: 80%; height: auto;">
-    </div>
-    <div class="row p-3">
-        <h2>TENEMP testbed @ AUEB [for development]</h2>
-        <img src="img/testbed_at_AUEB.png" class="img-fluid" style="width: 80%; height: auto;">
-    </div>
-    <div class="row p-3">
-        <h2>TENEMP testbed @ AUEB [for verification]</h2>
-        <img src="img/testbed_at_AUEB2.png" class="img-fluid" style="width: 80%; height: auto;">
-    </div>
-    <div class="row p-3">
-        <h2>TENEMP @ SPIRIT testbed</h2>
-        <img src="img/spirit_testbed.png" class="img-fluid" style="width: 80%; height: auto;">
-    </div>
-    <div class="row p-3">
-        <h2>3D Stream Pipeline</h2>
-        <img src="img/3d_stream_pipeline.png" class="img-fluid" style="width: 80%; height: auto;">
-    </div>
-    <div class="row p-3">
-        <h2>Metrics</h2>
+        <h2 id="metrics">Metrics</h2>
         <ul>
             <li>Latency: </li>
                 <ul>
@@ -159,9 +141,16 @@
                     )
                 </ul>
         </ul>
+    </div>
 
-
-
+    <div class="row p-3">
+        <h2>Experiment Setup</h2>
+        <object data="media/TENEMP_experiments_setup.pdf" type="application/pdf" width="100%" height="500px">
+            
+            
+        </object>
+    </div>
+<!--
     <div class="row p-3 justify-content-md-center">
         <h2>The TENeMP team</h2>
         <div class="col-sm-4 mb-3 mb-sm-0">
@@ -174,13 +163,21 @@
             </div>
         </div>
     </div>
+    -->
 </div>
 <!--<footer class="container border-top py-5 my-5"> -->
 <footer>
     <!-- <div class="row">
         <div class="col-md-8 text-center"> -->
-            <p>&copy; 2024 The TENeMP project team. All rights reserved.</p>
-            <p>Funded by the <a class="alink" href="https://spirit-project.eu/">Spirit Project.</a></p>
+            
+            <ul>
+                <li><a href="https://mm.aueb.gr/">mmlab</a></li>
+                <li><a href="https://www.aueb.gr/">AUEB</a></li>
+                <li><a href="https://spirit-project.eu/">SPIRIT</a></li>
+                <li><a href="https://mm.aueb.gr/contact">Contact us</a></li>
+            </ul>
+            <p>&copy; 2024 The TENeMP project team. All rights reserved. | 
+            Funded by the <b><a class="blink" href="https://spirit-project.eu/">Spirit Project.</a></b></p>
         <!--</div>
     </div>-->
 </footer>

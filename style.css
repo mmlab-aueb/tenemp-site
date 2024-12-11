@@ -23,6 +23,16 @@ ul li {
     padding: 14px 16px;
     text-decoration: none;
 }
+.blink {
+    /*display: block;*/
+    color: rgb(216, 220, 231);
+    /*text-align: center;*/
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
 /* header in grid of 3 cols: logo, name, funder */
 header {
     width: 1000px;
@@ -70,10 +80,101 @@ nav a:visited
 
 
 footer {
-    border-top-width: 10px;
+    /*border-top-width: 10px;
     border-top-style: solid;
-    border-top-color: rgb(72, 10, 107);
+    border-top-color: rgb(72, 10, 107);*/
     padding: 20px;
     margin: 20px auto; 
+    text-align: right;
+    background-color: rgb(9,32,108);
+    color:bisque;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+}
+
+footer li a {
+    display: block;
+    color: bisque;
     text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+footer a:hover
+{
+    color: rgb(191, 216, 224);
+}
+
+/* styles for team page */
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+
+}
+
+/* Display the columns below each other on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows for a card effect */
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    /*text-align: center;*/
+}
+.card2 img {
+    /*border-radius: 50%;*/
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    float: left;
+    
+}
+.card2 a {
+    /*display: block;*/
+    color: rgb(12, 56, 201);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.homelink {
+    padding: 0px 5px 5px 0px;
+}
+.homelink img {
+    width: 34px;
+    height: 32px;
+    float: left;
+}
+
+/* Button styling */
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #6c409e;
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #555;
 }
